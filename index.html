@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/main.js"></script>
+    <title>Flag App</title>
+  </head>
+  <body>
+    <div id="root">
+      <div class="container">
+        <div class="indianFlag" onmouseover="handleFlagEvent('indianFlag', 'mouseover');" onmouseleave="handleFlagEvent('indianFlag', 'mouseleave');">
+          <img src="http://flaglane.com/download/indian-flag/indian-flag-graphic.png" width="225" height="150">
+          <span id='indCountryName' class="indCountryName"> India </span>
+        </div>
+        <div class="americanFlag" onmouseover="handleFlagEvent('americanFlag', 'mouseover');" onmouseleave="handleFlagEvent('americanFlag', 'mouseleave');">
+          <img src="https://us.123rf.com/450wm/stillfx/stillfx1412/stillfx141200165/34460771-closeup-of-american-flag-stars-and-stripes.jpg?ver=6" width="225" height="150">
+          <span id='usCountryName' class='usCountryName'> America </span>
+        </div>
+        <div class="canadianFlag" onmouseover="handleFlagEvent('canadianFlag', 'mouseover');" onmouseleave="handleFlagEvent('canadianFlag', 'mouseleave');">
+          <div class="flipper">
+            <div class="front">
+              <img src="http://www.uk-da.com/cdn/450x300-canadian-flag-8-by-merlin2525-9991314.jpeg" width="225" height="150">
+            </div>
+            <div class="back">
+              <span id='cndCountryName'> Canada </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
